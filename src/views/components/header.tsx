@@ -42,7 +42,7 @@ export function Header() {
                     Vamos elaborar o melhor plano de ação para aumentar a sua
                     receita e do seu negócio no menor tempo possível.
                   </p>
-                  <div className="mt-10 max-w-[270px] rounded-[36px] border border-blue-900 bg-secondary px-5 py-3 font-bold text-white sm:mx-3 sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl">
+                  <div className="mt-10 max-w-[270px] rounded-[36px] border border-blue-900 bg-secondary px-5 py-3 font-bold text-white sm:max-w-[316px]">
                     <p>+ de R$2.000.000 investidos em anúncios pagos</p>
                   </div>
                 </div>
