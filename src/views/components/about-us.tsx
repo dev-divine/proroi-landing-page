@@ -2,7 +2,7 @@ import owners from '@assets/owners-5.png'
 
 export function AboutUs() {
   return (
-    <div className="relative mt-16 bg-white sm:mt-24">
+    <div id="abt-us" className="relative mt-16 bg-white sm:mt-24">
       <div className="mx-auto max-w-7xl lg:flex lg:justify-between lg:px-8 xl:justify-end">
         <div className="lg:flex lg:w-[55%] lg:shrink lg:grow-0 xl:absolute xl:inset-y-0 xl:right-1/2 xl:w-1/2">
           <div className="relative lg:-ml-8 lg:h-auto lg:w-full lg:grow xl:ml-0">

@@ -4,15 +4,11 @@ import ReactPlayer from 'react-player'
 import { useKeenSlider } from 'keen-slider/react'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 
-import { cn } from '@app/utils/cn'
-
 export function VideoCarousel() {
   const [sliderRef, slider] = useKeenSlider<HTMLDivElement>()
 
-  const video01 =
-    'https://drive.google.com/file/d/1WtykdXXcFGffk5jyT48kkC9HLnS0ZSOk/view?usp=sharing'
-  const video02 =
-    'https://drive.google.com/file/d/1VUa73UFMdKVztM7-Ljn8Sa05ls0jBbLI/view?usp=sharing'
+  const video01 = 'https://youtu.be/wz0c3IBs-t0'
+  const video02 = 'https://youtu.be/ccfJHxZMlrQ'
   const video03 =
     'https://drive.google.com/file/d/1OB3btPLtxToj-iG98NodOctfK0zlBU_c/view?usp=sharing'
 
@@ -29,12 +25,12 @@ export function VideoCarousel() {
       src: video02,
       credit: 'Video by Proroi',
     },
-    {
-      id: 3,
-      title: 'Video 03',
-      src: video03,
-      credit: 'Video by Proroi',
-    },
+    // {
+    //   id: 3,
+    //   title: 'Video 03',
+    //   src: video03,
+    //   credit: 'Video by Proroi',
+    // },
   ]
 
   const goNext = () => {
@@ -50,7 +46,7 @@ export function VideoCarousel() {
   }
 
   return (
-    <div className="mt-20">
+    <div id="feedbacks" className="mt-20">
       <h3 className="mb-16 text-center text-4xl font-extrabold text-main-purple drop-shadow-md">
         Veja quem já está conosco
       </h3>
@@ -67,13 +63,13 @@ export function VideoCarousel() {
             <div key={video.id} className="keen-slider__slide">
               <ReactPlayer
                 url={video.src}
-                width="100%"
+                width="50%"
                 style={{
                   margin: 'auto',
+                  borderRadius: '1rem',
                 }}
                 controls
                 pip
-                playing
               />
             </div>
           ))}

@@ -33,13 +33,22 @@ export function Navigation() {
           </button>
         </div>
         <div className="hidden h-10 items-center md:flex md:gap-x-12">
-          <a className="cursor-pointer text-sm font-semibold leading-6 text-white hover:underline hover:underline-offset-4">
+          <a
+            className="cursor-pointer text-sm font-semibold leading-6 text-white hover:underline hover:underline-offset-4"
+            href="#abt-us"
+          >
             Sobre nós
           </a>
-          <a className="cursor-pointer text-sm font-semibold leading-6 text-white hover:underline hover:underline-offset-4">
-            Produtos
+          <a
+            className="cursor-pointer text-sm font-semibold leading-6 text-white hover:underline hover:underline-offset-4"
+            href="#feedbacks"
+          >
+            Feedbacks
           </a>
-          <a className="cursor-pointer text-sm font-semibold leading-6 text-white hover:underline hover:underline-offset-4">
+          <a
+            className="cursor-pointer text-sm font-semibold leading-6 text-white hover:underline hover:underline-offset-4"
+            href="#srvcs"
+          >
             Serviços
           </a>
         </div>
@@ -74,13 +83,22 @@ export function Navigation() {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
-                <a className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                <a
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  href="#abt-us"
+                >
                   Sobre nós
                 </a>
-                <a className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                  Produtos
+                <a
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  href="#feedbacks"
+                >
+                  Feedbacks
                 </a>
-                <a className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                <a
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  href="#srvcs"
+                >
                   Serviços
                 </a>
               </div>

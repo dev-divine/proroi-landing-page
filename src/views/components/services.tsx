@@ -2,7 +2,10 @@ import { services } from '@app/data/services'
 
 export function Services() {
   return (
-    <div className="mx-auto mt-16 max-w-7xl px-6 sm:mt-20 md:mt-24 lg:px-8">
+    <div
+      id="srvcs"
+      className="mx-auto mt-16 max-w-7xl px-6 sm:mt-20 md:mt-24 lg:px-8"
+    >
       <h3 className="mb-4 text-center text-4xl font-extrabold text-main-purple drop-shadow-md">
         Nossos serviços
       </h3>
