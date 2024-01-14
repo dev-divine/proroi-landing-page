@@ -5,12 +5,13 @@ import { useKeenSlider } from 'keen-slider/react'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 
 import { cn } from '@app/utils/cn'
-import video01 from '@app/data/videos/video-01.mov'
-import video02 from '@app/data/videos/video-02.mov'
-import video03 from '@app/data/videos/video-03.mp4'
 
 export function VideoCarousel() {
   const [sliderRef, slider] = useKeenSlider<HTMLDivElement>()
+
+  const video01 = "https://drive.google.com/file/d/1WtykdXXcFGffk5jyT48kkC9HLnS0ZSOk/view?usp=drive_link"
+  const video02 = "https://drive.google.com/file/d/1VUa73UFMdKVztM7-Ljn8Sa05ls0jBbLI/view?usp=drive_link"
+  const video03 = "https://drive.google.com/file/d/1OB3btPLtxToj-iG98NodOctfK0zlBU_c/view?usp=drive_link"
 
   const videoProperties = [
     {
