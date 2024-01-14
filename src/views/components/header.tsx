@@ -27,25 +27,27 @@ export function Header() {
             />
             <div className="mx-auto max-w-5xl py-36 md:py-32 lg:pb-56 lg:pt-52">
               <div className="flex flex-wrap justify-between text-center md:flex-nowrap">
-                <div className="animate move-animation-left mx-auto min-w-96 flex-1 gap-20 md:mx-0">
-                  <h2 className="text-center text-4xl font-bold tracking-tight text-gray-400 md:text-left">
+                <div className="animate move-animation-left mx-auto min-w-96 gap-20 text-center md:mx-0">
+
+                  <h2 className=" text-left text-4xl font-bold tracking-tight text-gray-400 sm:max-w-sm md:max-w-md md:text-left lg:max-w-lg xl:max-w-xl">
                     BEM VINDO A
                   </h2>
-                  <h1 className="text-center text-4xl font-bold tracking-tight text-white ph:text-left ph:text-8xl">
+                  <h1 className="max-w-[270px] text-left text-4xl font-bold tracking-tight text-white sm:max-w-sm md:max-w-md ph:text-left ph:text-8xl lg:max-w-lg xl:max-w-xl">
                     PROROI
                   </h1>
-                  <p className="mx-auto mb-5 mt-3 text-center text-lg text-gray-100 drop-shadow-lg ph:mx-0 ph:text-left">
+                  <p className="mb-5 mt-3 max-w-[270px] text-left text-lg text-gray-100 drop-shadow-lg sm:max-w-sm md:max-w-md ph:mx-0 ph:text-left lg:max-w-lg xl:max-w-xl">
                     O nosso negócios é acelerar os seus{' '}
                     <span className="font-bold">resultados!</span>
                   </p>
-                  <p className="mx-auto max-w-96 text-center text-white drop-shadow-md ph:mx-0 ph:text-left">
+                  <p className="max-w-[270px] text-left text-white drop-shadow-md sm:max-w-sm md:max-w-md ph:mx-0 ph:text-left lg:max-w-lg xl:max-w-xl">
                     Vamos elaborar o melhor plano de ação para aumentar a sua
                     receita e do seu negócio no menor tempo possível.
                   </p>
-                  <div className="mx-auto mt-10 max-w-80 rounded-[36px] border border-blue-900 bg-gray-700 px-10 py-5 font-bold text-white ph:mx-0">
+                  <div className="mt-10 max-w-[270px] rounded-[36px] border border-blue-900 bg-secondary px-5 py-3 font-bold text-white sm:mx-3 sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl">
                     <p>+ de R$2.000.000 investidos em anúncios pagos</p>
                   </div>
                 </div>
+
                 <form className="animate move-animation-right mx-auto mt-16 w-full max-w-sm rounded-lg bg-transparent bg-white bg-opacity-15 p-4 shadow md:mt-0">
                   <h2 className="mb-4 text-2xl font-bold text-white">
                     O método definitivo para potencializar suas vendas.
@@ -77,11 +79,6 @@ export function Header() {
                     CONTRATAR CONSULTORIA
                   </button>
                 </form>
-                {/* <img
-                  src={owners}
-                  alt="CTOs da empresa Proroi"
-                  className="absolute bottom-36 right-5 z-10 hidden h-[1126px] ph:mx-auto ph:block tb:mx-0 tb:flex"
-                /> */}
               </div>
             </div>
 
