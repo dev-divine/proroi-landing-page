@@ -1,5 +1,5 @@
-import { SVGProps } from "react"
-import { JSX } from "react/jsx-runtime"
+import { SVGProps } from 'react'
+import { JSX } from 'react/jsx-runtime'
 
 const navigation = {
   main: [

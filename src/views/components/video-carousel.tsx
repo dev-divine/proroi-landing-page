@@ -9,8 +9,8 @@ export function VideoCarousel() {
 
   const video01 = 'https://youtu.be/wz0c3IBs-t0'
   const video02 = 'https://youtu.be/ccfJHxZMlrQ'
-  const video03 =
-    'https://drive.google.com/file/d/1OB3btPLtxToj-iG98NodOctfK0zlBU_c/view?usp=sharing'
+  // const video03 =
+  //   'https://drive.google.com/file/d/1OB3btPLtxToj-iG98NodOctfK0zlBU_c/view?usp=sharing'
 
   const videoProperties = [
     {
