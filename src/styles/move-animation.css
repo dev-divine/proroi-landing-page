@@ -1,0 +1,25 @@
+@keyframes moveRightToLeftAnimation {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveLeftToRightAnimation {
+  from {
+    transform: translateX(200%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.move-animation-left {
+  animation: moveRightToLeftAnimation 1s ease-out;
+}
+
+.move-animation-right {
+  animation: moveLeftToRightAnimation 1s ease-out;
+}
