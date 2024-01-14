@@ -9,9 +9,12 @@ import { cn } from '@app/utils/cn'
 export function VideoCarousel() {
   const [sliderRef, slider] = useKeenSlider<HTMLDivElement>()
 
-  const video01 = "https://drive.google.com/file/d/1WtykdXXcFGffk5jyT48kkC9HLnS0ZSOk/view?usp=drive_link"
-  const video02 = "https://drive.google.com/file/d/1VUa73UFMdKVztM7-Ljn8Sa05ls0jBbLI/view?usp=drive_link"
-  const video03 = "https://drive.google.com/file/d/1OB3btPLtxToj-iG98NodOctfK0zlBU_c/view?usp=drive_link"
+  const video01 =
+    'https://drive.google.com/file/d/1WtykdXXcFGffk5jyT48kkC9HLnS0ZSOk/view?usp=sharing'
+  const video02 =
+    'https://drive.google.com/file/d/1VUa73UFMdKVztM7-Ljn8Sa05ls0jBbLI/view?usp=sharing'
+  const video03 =
+    'https://drive.google.com/file/d/1OB3btPLtxToj-iG98NodOctfK0zlBU_c/view?usp=sharing'
 
   const videoProperties = [
     {
@@ -34,19 +37,15 @@ export function VideoCarousel() {
     },
   ]
 
-  let count = 0
-
   const goNext = () => {
     if (slider.current) {
       slider.current.next()
-      count += 1
     }
   }
 
   const goPrev = () => {
     if (slider.current) {
       slider.current.prev()
-      count -= 1
     }
   }
 
@@ -59,10 +58,7 @@ export function VideoCarousel() {
       <div className="relative">
         <button
           onClick={goPrev}
-          className={cn(
-            'absolute right-[88%] top-[35%] z-10',
-            count === 0 && 'pointer-events-none',
-          )}
+          className="absolute right-[88%] top-[35%] z-10"
         >
           <ChevronLeft className="h-10 w-10 text-black" strokeWidth={3} />
         </button>
@@ -82,13 +78,7 @@ export function VideoCarousel() {
             </div>
           ))}
         </div>
-        <button
-          onClick={goNext}
-          className={cn(
-            'absolute right-[8%] top-[35%] z-10',
-            count === 1 && 'pointer-events-none',
-          )}
-        >
+        <button onClick={goNext} className="absolute right-[8%] top-[35%] z-10">
           <ChevronRight className="h-10 w-10 text-black" strokeWidth={3} />
         </button>
       </div>
