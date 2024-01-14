@@ -28,7 +28,6 @@ export function Header() {
             <div className="mx-auto max-w-5xl py-36 md:py-32 lg:pb-56 lg:pt-52">
               <div className="flex flex-wrap justify-between text-center md:flex-nowrap">
                 <div className="animate move-animation-left mx-auto min-w-96 gap-20 text-center md:mx-0">
-
                   <h2 className=" text-left text-4xl font-bold tracking-tight text-gray-400 sm:max-w-sm md:max-w-md md:text-left lg:max-w-lg xl:max-w-xl">
                     BEM VINDO A
                   </h2>
